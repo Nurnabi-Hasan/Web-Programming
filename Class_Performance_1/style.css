@@ -23,6 +23,7 @@ margin: 30px auto;
 backdrop-filter:blur(10px);
 }
 
+
 .container h2
 {
     font-size: 24px;
@@ -31,12 +32,26 @@ backdrop-filter:blur(10px);
     color: white;
 }
 
+
+
 .input
 {
     display: flex;
-    position: relative;
+    /* position: relative; */
     margin: 20px auto;
 }
+.col{
+    display: flex;
+    width: 50%;
+
+}
+.col-1{
+    display: flex;
+    width: 50%;
+    margin-left: 20px;
+
+}
+
 
 .icon
 {

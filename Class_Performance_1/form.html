@@ -19,14 +19,19 @@
         <form>
 
     <div class="input">
-        <i class="fa fa-user icon"></i>
-        <input type="text" placeholder="First Name" class="text-name" required>
+        <div class="col">
 
-    </div> 
+            <i class="fa fa-user icon"></i>
+            <input type="text" placeholder="First Name" class="text-name" required>
 
-    <div class="input">
-    <i class="fa fa-user icon"></i>
-    <input type="text" placeholder="Last Name" class="text-name" required>
+        </div>
+        
+        <div class="col-1">
+
+            <i class="fa fa-user icon"></i>
+            <input type="text" placeholder="Last Name" class="text-name" required>
+
+        </div>
 
     </div> 
 
@@ -53,18 +58,17 @@
             <label id="radio-text">Female</label>
         </div> 
 
-        <div class="input" required>    
-        <select class="country-name">
-            <option>Select a Country</option>
-            <option>Bangladesh</option>
-            <option>India</option>
-            <option>USA</option>
-            <option>Canada</option>
-        </select>
+        <div class="input"required>    
+            <select class="country-name">
+                <option disabled selected>Select a Country</option>
+                <option>Bangladesh</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>Canada</option>
+            </select>
         </div> 
 
-        <div class="input">
-            
+        <div class="input"> 
             <input type="checkbox" class="check-box" required>
             <label id="check-text">I Accept the terms and Conditions</label>
         </div> 
