@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(252, 233, 233);
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.btn{
+color: white;
+padding: 15px 30px;
+background-color: blue;
+border: none;
+border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: rgb(5, 5, 75);
+    transition: 1s;
+    cursor: pointer;
+}
+
+#highlightSection{
+    width: 70%;
+    margin: 50px auto;
+}
+
+#highlightSection >h2{
+    font-size: 45px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px rgb(243, 180, 180);
+
+}
+
+#highlightSection >p{
+    text-align: center;
+    width: 50%;
+    color: gray;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+#buy_now_button{
+    display: flex;
+   justify-content: center;
+}
+    
+#cover-image-section{
+ 
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#cover-image-section img{
+    width: 100%;
+}
+
+#search-section {
+
+    width: 70%;
+    margin: 50px auto; 
+
+}
+
+#search-section >h2{
+    text-align: center; 
+    margin-bottom: 20px;
+
+}
+
+#search-container{
+    border: 2px solid rgb(0, 0, 0);
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgb(252, 245, 204);
+}
+
+#search-bar{
+    width: 70%;
+}
+
+#search-bar > input[type="text"]{
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 80%;
+    background-color: rgb(252, 245, 204);
+    
+}
+#search-btn{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+}
+
+
+#card-section{
+    width: 80%;
+   
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
+
+#card-image{
+    background-color: rgb(252, 252, 252);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#card-image img{
+    
+    width: 100%;
+    height: 400px;
+}
+
+#card-image :hover{
+    background-color: aquamarine;
+    border-radius: 8px;
+}
+.card{
+    border: 2px solid rgb(99, 92, 92);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.card-description{
+    text-align: center;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.card-price{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-button{
+    justify-content: center;
+    display: flex;
+}
+
+#loader{ 
+   display: flex;
+   justify-content: center;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/* HTML: <div class="loader"></div> */
+/* .loader {
+    width: 40px;
+    aspect-ratio: 1;
+    color: #10028f;
+    position: relative;
+    background:
+      conic-gradient(from 134deg at top   ,currentColor 92deg,#0000 0) top,
+      conic-gradient(from -46deg at bottom,currentColor 92deg,#0000 0) bottom;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+  }
+  .loader:before {
+    content:'';
+    position: absolute;
+    inset: 0;
+    --g:currentColor 14.5px,#0000 0 calc(100% - 14.5px),currentColor 0;
+    background:
+      linear-gradient( 45deg,var(--g)),
+      linear-gradient(-45deg,var(--g));
+     animation: l7 1.5s infinite cubic-bezier(0.3,1,0,1);
+  }
+  @keyframes l7 {
+     33%  {inset:-10px;transform: rotate(0deg)}
+     66%  {inset:-10px;transform: rotate(90deg)}
+     100% {inset:0    ;transform: rotate(90deg)}
+  } */
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 35px;
+    aspect-ratio: 1;
+    --_g: no-repeat radial-gradient(farthest-side,#070249 94%,#0000);
+    background:
+      var(--_g) 0    0,
+      var(--_g) 100% 0,
+      var(--_g) 100% 100%,
+      var(--_g) 0    100%;
+    background-size: 40% 40%;
+    animation: l38 .5s infinite; 
+  }
+  @keyframes l38 {
+    100% {background-position: 100% 0,100% 100%,0 100%,0 0}
+  }
+
+
+
+
+  footer{
+    
+    /* margin: 0px auto; */
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(230, 227, 227);
+
+} 
+
+.top-part{
+   display: flex;
+    justify-content: space-between;
+   margin: 0px auto; 
+}
+
+.top-part h3{
+color: grey; 
+ }
+
+#single-border{
+    border: 1px solid rgb(194, 186, 186);
+    
+}
+
+#icons{
+    padding-right: 20px;
+   font-size: 25px;
+}
+
+#footer-card-section{
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    grid-template-columns: repeat(4, 1fr);
+   gap: 20px;
+}
+
+.footer-card{
+    display: flex;
+    flex-direction: column;
+}

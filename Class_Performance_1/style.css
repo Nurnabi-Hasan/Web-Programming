@@ -1,0 +1,105 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url(./resources/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container
+{
+border:2px solid wheat ;
+border-radius: 20px;
+background:transparent;
+width: 30%;
+padding: 25px;
+margin: 30px auto;
+backdrop-filter:blur(10px);
+}
+
+.container h2
+{
+    font-size: 24px;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+.input
+{
+    display: flex;
+    position: relative;
+    margin: 20px auto;
+}
+
+.icon
+{
+    padding: 8px 11px;
+}
+.eicon
+{
+    padding: 8px 8px;
+
+}
+
+.text-name{
+   width: 100%;
+    padding: 8px 0px 8px 40px;
+}
+
+
+.input i{
+    position: absolute;
+   font-size: 18px;
+   border-right: 1px solid #cccccc;
+}
+
+.radio-button 
+{
+    margin-right: 8px;
+    margin-left: 30px;
+    padding: 20px;
+    
+}
+.radio-button1
+{
+    margin-right: 8px;
+    color: aliceblue;
+}
+
+#radio-text{
+color: white;
+}
+
+#check-text{
+    color: white;
+}
+
+.country-name
+{
+  width: 100%;
+    padding: 8px 0px 8px 10px;
+}
+.button{
+    display: flex;
+    width: 100%;
+    padding: 8px 0px 8px 10px;
+    margin: auto;
+    outline: none;
+
+}
+
+.check-box
+{
+    margin-right: 8px;
+    
+
+}
+
+
